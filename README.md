@@ -4,13 +4,13 @@ Task description:
 We’re all quite used to our good old decimal system of numerals. But let’s not forget that there are countless other ways to count! Whether we convert numbers from one system to another just for fun or to store large data more efficiently, a converter would be helpful. In this project you will create a mathematical helper that will help you convert numbers from system M to system N.
 example:
 
-10   // base input
+10   // input old base
 
-5    // number input
+5    // input number
 
-2    // base output
+2    // input new base
 
-101  // result same number in a new base
+101  // result output: same number in the new base
 
 
 import java.util.Scanner;
