@@ -81,9 +81,9 @@ public class stage6of6MySolution2 {
 	}
 	
 	private static void checkInput(String[] input) {
-		 if (!input[0].matches("^(([3][0-6])|([1-2][0-9])|([1-9]))") || 
+		 if (!input[0].matches("^(([3][0-6])|([1-2][0-9])|([1-9]))") ||  //base must be between 1 and 36
 				 !input[1].matches("[\\da-z]+(\\.[\\da-z]+)?") || 
-				 !input[2].matches("^(([3][0-6])|([1-2][0-9])|([1-9]))")) {
+				 !input[2].matches("^(([3][0-6])|([1-2][0-9])|([1-9]))")) { //base must be between 1 and 36
 	            System.out.println("error!");
 	            
 	           System.exit(0);
